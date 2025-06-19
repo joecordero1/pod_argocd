@@ -2,9 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: grafana-deployment
-  namespace: grafana
 spec:
-  replicas: 6
+  replicas: 5
   selector:
     matchLabels:
       app: grafana
